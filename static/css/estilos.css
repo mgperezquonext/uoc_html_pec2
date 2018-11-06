@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+
+
+
+
+nav, footer {
+    background-color: #C5B180;
+}
+
+nav ul {
+    width: 668px;
+    margin: auto;
+}
+
+nav ul li {
+    /* queremos que sea horizontal */
+    display: inline-block;
+    text-align: center;
+    width: 217px;
+    border-left: 1px solid white;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    line-height: 79px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
+
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+article {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    padding: 18px;
+    padding-bottom: 40px;
+}
+
+article img {
+    width: 200px;
+    margin: auto;
+}
+
+article header {
+    background-color: #DCCDBD;
+    padding: 34px 34px 22px 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article header h1 {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+article header author {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer > * {
+    display: inline-block;
+}
+
+footer p {
+    text-indent: inherit;
+}
+
+footer img {
+    width: 100px;
+    padding: 50px;
+}
+
+footer div {
+    max-width: 75%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+footer div h1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    text-indent: 30px;
+    margin-top: 20px;
+}
+
+p.intro {
+    text-indent: inherit;
+    color: #C7B68E;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+blockquote {
+    background-color: #F9F9F9;
+    quotes: inherit;
+    width: 500px;
+    border-left: 4px solid #CFCFCF;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.5em;
+    text-indent: 0px;
+    margin-bottom: 20px;
+}
+blockquote:before, blockquote:after {
+    color: lightgray;
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote:before {
+    content: open-quote;
+}
+blockquote:after {
+    content: close-quote;
+}
+
+
+q {
+    quotes: inherit;
+    font-size: 18px;
+}
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+}
+
+section h1 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+section img {
+    width: 432px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+
+p.tituloimg {
+    width: 432px;
+    margin: auto;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+section.sabermas h1 {
+    color: #575D61;
+    font-size: 18px;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    padding-left: 30px;
+}
+
+section.sabermas ol {
+    display: block;
+    margin: auto;
+    color: #575D61;
+    width: 545px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    padding: 20px;
+    padding-left: 40px;
+    list-style: decimal;
+    line-height: 2em;
+}
+
+section.sabermas ol li {
+    color: inherit;
+}
+
+section.sabermas ol li a {
+    color: #40A340;
+    text-decoration: none;
+}
+
+
+
+article.tecnologias h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+article.tecnologias dl {
+    width: 700px;
+    margin: auto;
+}
+
+article.tecnologias dt {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    border-bottom: 4px dotted black;
+}
+
+
+article.tecnologias dd {
+    padding: 20px;
+}
+
+
+article.tecnologias dd p {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+article.catalogo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+article.catalogo ol {
+    padding: 20px;
+    width: 590px;
+    border: 2px solid #C8B585;
+    margin: auto;
+    list-style-type: upper-alpha;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+
+article.catalogo ol ol {
+    border: none;
+    list-style-type: decimal;
+    padding-left: 40px;
+    font-weight: normal;
+}
+
+article.catalogo ol ol ul, article.catalogo ol ul {
+    border: none;
+    padding: 20px;
+}
+
+
+article.catalogo ol ol ul li, article.catalogo ol ul li {
+    background-image: url('../img/icono_impresora.png');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+article.catalogo ol ol ul li a, article.catalogo ol ul li a {
+    text-decoration: none;
+    color: #D4BDA4;
+}
+
+
+main {
+    max-width: 1024px;
+    margin: auto;
+}
